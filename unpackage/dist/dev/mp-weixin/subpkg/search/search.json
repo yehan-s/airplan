@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "选票",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "ticket": "/components/ticket/ticket"
+  }
+}

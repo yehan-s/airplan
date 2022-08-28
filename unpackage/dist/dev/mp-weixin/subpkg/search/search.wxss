@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background: #dedede;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+page .van-nav-bar {
+  background: linear-gradient(to right, #4f8ef6, #4654EA);
+  color: #eee !important;
+  /* /deep/ 就是把data-v-hash值选择器写到类名的前面 */
+}
+page .van-nav-bar .van-nav-bar__title {
+  color: #eee;
+}
+page .van-nav-bar .van-icon {
+  color: #eee !important;
+}
+page .van-tabs {
+  width: 100%;
+}
+.venue_reserve {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.top_view {
+  display: flex;
+  justify-content: space-around;
+}
+.top_date {
+  float: left;
+  width: 13%;
+  height: 35px;
+  color: #666;
+  background-color: #F5F5F8;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  font-size: 12px;
+}
+.top_date_active {
+  background-color: #FFFFFF;
+  border: 1px solid #007BFF;
+  color: #007BFF;
+}
+.reserve_legend {
+  display: flex;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.dp {
+  display: flex;
+}
+/* 图例样式 */
+.reserve_legend_view {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  width: 250rpx;
+  margin: auto;
+}
+.reserve_legend_view_i {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}
+.bg_one {
+  background-color: #6acb6c;
+}
+.bg_two {
+  background-color: #CCCCCC;
+}
+.bg_three {
+  background-color: #007BFF;
+}
+/* 图例样式 */
+/* 底部提交按钮样式 */
+.reserve_bottom {
+  display: flex;
+  color: #fff;
+  line-height: 100rpx;
+  flex: 0 0 100rpx;
+}
+.btm_txt {
+  background-color: #FFFFFF;
+  width: 70%;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  padding-left: 20rpx;
+}
+.btm_price {
+  font-size: 16px;
+  color: #A5A5A5;
+}
+.btm_nums {
+  font-size: 22px;
+  color: #FF0000;
+}
+.btm_order {
+  display: flex;
+  width: 30%;
+  line-height: 100rpx;
+  justify-content: center;
+}
+.btm_gray {
+  background-color: #BCBBBB;
+  color: #FFFFFF;
+}
+.btm_blue {
+  background-color: #007BFF;
+  color: #FFFFFF;
+}
+

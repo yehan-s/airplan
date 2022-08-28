@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-2c19940c .van-nav-bar {
+  background: linear-gradient(to right, #4f8ef6, #4654EA);
+  color: #eee !important;
+  /* /deep/ 就是把data-v-hash值选择器写到类名的前面 */
+}
+.data-v-2c19940c .van-nav-bar .van-nav-bar__title {
+  color: #eee;
+}
+.data-v-2c19940c .van-nav-bar .van-icon {
+  color: #eee !important;
+}
+.data-v-2c19940c .van-nav-bar .van-navbar__content {
+  border: 0 none !important;
+}
+.cart-bar.data-v-2c19940c {
+  background: linear-gradient(to right, #4f8ef6, #4654EA);
+  border-radius: 0rpx 0rpx 50rpx 50rpx;
+  height: 240rpx;
+  position: relative;
+}
+.van-notice-bar.data-v-2c19940c {
+  margin-bottom: 30rpx;
+}
+.main-contents.data-v-2c19940c {
+  position: absolute;
+  left: 0rpx;
+  right: 0rpx;
+  top: 30rpx;
+  padding-bottom: 120rpx;
+}
+.yellow-white.data-v-2c19940c {
+  background: linear-gradient(#ffdf40, #f4f4f4);
+  /* 标准的语法（必须放在最后） */
+}
+.yellow-white2.data-v-2c19940c {
+  /*color: linear-gradient(#ffdf40, orange); !* 标准的语法（必须放在最后） *!*/
+}
+.half-width.data-v-2c19940c {
+  width: 50%;
+}
+.rotate2.data-v-2c19940c {
+  transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  /* Firefox 4 */
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */
+}
+.rotate.data-v-2c19940c {
+  transition: width 0.2s, height 0.2s;
+  -moz-transition: width 0.2s, height 0.2s, -moz-transform 0.2s;
+  /* Firefox 4 */
+  -webkit-transition: width 0.2s, height 0.2s, -webkit-transform 0.2s;
+  /* Safari and Chrome */
+  -o-transition: width 0.2s, height 0.2s, -o-transform 0.2s;
+  /* Opera */
+}
+.z-index1100.data-v-2c19940c {
+  z-index: 1100;
+}
+.z-index1101.data-v-2c19940c {
+  z-index: 1101;
+}
+

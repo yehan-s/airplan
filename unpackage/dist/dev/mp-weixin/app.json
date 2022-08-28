@@ -1,0 +1,65 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/order/order",
+        "pages/me/me"
+    ],
+    "subPackages": [
+        {
+            "root": "subpkg",
+            "pages": [
+                "login/login",
+                "search/search",
+                "progress/index",
+                "selectCity/selectCity",
+                "orderDetail/orderDetail",
+                "addPassenger/addPassenger"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "武信机航",
+        "navigationBarBackgroundColor": "#5a64e3",
+        "backgroundColor": "#ecf3f8"
+    },
+    "tabBar": {
+        "selectedColor": "#5a64e3",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/tab_icons/tab_1.png",
+                "selectedIconPath": "static/tab_icons/tab_active_1.png"
+            },
+            {
+                "pagePath": "pages/order/order",
+                "text": "订单",
+                "iconPath": "static/tab_icons/tab_2.png",
+                "selectedIconPath": "static/tab_icons/tab_active_2.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我的",
+                "iconPath": "static/tab_icons/tab_3.png",
+                "selectedIconPath": "static/tab_icons/tab_active_3.png"
+            }
+        ]
+    },
+    "permission": {},
+    "usingComponents": {
+        "van-button": "/wxcomponents/vant/dist/button/index",
+        "van-grid": "/wxcomponents/vant/dist/grid/index",
+        "van-grid-item": "/wxcomponents/vant/dist/grid-item/index",
+        "van-icon": "/wxcomponents/vant/dist/icon/index",
+        "van-tab": "/wxcomponents/vant/dist/tab/index",
+        "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+        "van-empty": "/wxcomponents/vant/dist/empty/index",
+        "van-divider": "/wxcomponents/vant/dist/divider/index",
+        "van-calendar": "/wxcomponents/vant/dist/calendar/index",
+        "van-transition": "/wxcomponents/vant/dist/transition/index",
+        "van-nav-bar": "/wxcomponents/vant/dist/nav-bar/index",
+        "van-notice-bar": "/wxcomponents/vant/dist/notice-bar/index"
+    },
+    "sitemapLocation": "sitemap.json"
+}
